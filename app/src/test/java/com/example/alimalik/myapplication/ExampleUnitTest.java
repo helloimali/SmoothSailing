@@ -1,4 +1,4 @@
-package com.example.alimalik.smoothsailing;
+package com.example.alimalik.myapplication;
 
 import org.junit.Test;
 

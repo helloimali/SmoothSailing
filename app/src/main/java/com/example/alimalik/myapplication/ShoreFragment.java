@@ -1,4 +1,4 @@
-package com.example.alimalik.smoothsailing;
+package com.example.alimalik.myapplication;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -8,10 +8,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class test extends Fragment {
+public class ShoreFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.activity_main,container, false);
+        return inflater.inflate(R.layout.fragment_shore, null);
     }
+
 }

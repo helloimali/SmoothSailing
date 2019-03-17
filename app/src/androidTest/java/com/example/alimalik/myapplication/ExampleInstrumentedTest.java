@@ -1,4 +1,4 @@
-package com.example.alimalik.smoothsailing;
+package com.example.alimalik.myapplication;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.alimalik.smoothsailing", appContext.getPackageName());
+        assertEquals("com.example.alimalik.myapplication", appContext.getPackageName());
     }
 }
