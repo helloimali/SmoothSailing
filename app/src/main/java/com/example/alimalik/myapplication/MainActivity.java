@@ -60,10 +60,7 @@ public class MainActivity extends AppCompatActivity
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
+
 
         return super.onOptionsItemSelected(item);
     }
@@ -86,9 +83,7 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_manage) {
             fragment = new DiningFragment();
 
-        } else if (id == R.id.nav_health) {
-            fragment = new HealthFragment();
-        } else if (id == R.id.nav_share) {
+        }  else if (id == R.id.nav_share) {
             fragment = new ReportFragment() ;
         } else if (id == R.id.nav_send) {
             //fragment = new ImportFragment();

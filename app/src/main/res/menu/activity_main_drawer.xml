@@ -21,10 +21,6 @@
             android:icon="@drawable/ic_local_cafe_black_24dp"
             android:title="Dining" />
 
-        <item
-            android:id="@+id/nav_health"
-            android:icon="@drawable/ic_healing_black_24dp"
-            android:title="Health" />
 
 
     </group>
