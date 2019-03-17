@@ -80,7 +80,13 @@ public class MainActivity extends AppCompatActivity
             // Handle the camera action
             fragment = new HomeFragment();
         } else if (id == R.id.nav_gallery) {
+<<<<<<< HEAD:app/src/main/java/com/example/alimalik/myapplication/MainActivity.java
             fragment = new ShoreFragment();
+=======
+            Intent intent = new Intent(this, MainActivity.class);
+            startActivity(intent);
+
+>>>>>>> parent of d01af9f... More changes:app/src/main/java/com/example/alimalik/smoothsailing/Home.java
         } else if (id == R.id.nav_slideshow) {
             fragment = new SPAFragment();
         } else if (id == R.id.nav_manage) {

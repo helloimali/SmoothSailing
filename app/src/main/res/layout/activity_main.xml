@@ -11,6 +11,7 @@
     <include
         layout="@layout/app_bar_main"
         android:layout_width="match_parent"
+<<<<<<< HEAD
         android:layout_height="match_parent" />
 
     <android.support.design.widget.NavigationView
@@ -23,3 +24,27 @@
         app:menu="@menu/activity_main_drawer" />
 
 </android.support.v4.widget.DrawerLayout>
+=======
+        android:layout_height="51dp"
+        android:layout_marginTop="56dp"
+        android:text="Send Message"
+
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/IDTEXT" />
+
+    <Button
+        android:id="@+id/luggaeButton"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+
+        android:layout_marginTop="16dp"
+        android:text="Send Message"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sendButton" />
+
+</android.support.constraint.ConstraintLayout>
+>>>>>>> parent of d01af9f... More changes
