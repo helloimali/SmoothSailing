@@ -85,8 +85,7 @@ public class Home extends AppCompatActivity
             Intent intent = new Intent(this, MainActivity.class);
             startActivity(intent);
         } else if (id == R.id.nav_gallery) {
-            Intent intent = new Intent(this, MainActivity.class);
-            startActivity(intent);
+           
 
         } else if (id == R.id.nav_slideshow) {
 
