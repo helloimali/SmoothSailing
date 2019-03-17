@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_beach_access_black_24dp"
+            android:title="Shore Excursions " />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_spa_black_24dp"
+            android:title="Spa" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_local_cafe_black_24dp"
+            android:title="Dining" />
+
+        <item
+            android:id="@+id/nav_health"
+            android:icon="@drawable/ic_healing_black_24dp"
+            android:title="Health" />
+
+
+    </group>
+
+    <item android:title="Contact">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_report_problem_black_24dp"
+                android:title="Report Lost or Stolen Items" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Contact Crew" />
+        </menu>
+    </item>
+
+</menu>
